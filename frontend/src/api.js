@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = "https://ai-worker-productivity-dashboard-g2ji.onrender.com";
 
 export async function getFactoryMetrics() {
   const res = await fetch(`${BASE_URL}/metrics/factory`);
