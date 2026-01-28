@@ -3,6 +3,9 @@ from .database import Base, engine
 from . import models
 from .routes import seed,events, metrics
 from fastapi.middleware.cors import CORSMiddleware
+from .routes.seed import seed_workers_and_stations
+from .database import SessionLocal
+from .models import Event
 
 Base.metadata.create_all(bind=engine)
 
@@ -18,6 +21,16 @@ app.add_middleware(
 app.include_router(seed.router)  
 app.include_router(events.router) 
 app.include_router(metrics.router)
+
+
+@app.on_event("startup")
+def auto_seed_if_empty():
+    db = SessionLocal()
+    has_events = db.query(Event).first()
+    db.close()
+
+    if not has_events:
+        seed_workers_and_stations()
 
 
 @app.get("/")
