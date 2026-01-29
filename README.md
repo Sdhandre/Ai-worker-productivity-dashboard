@@ -26,15 +26,15 @@ https://github.com/Sdhandre/Ai-worker-productivity-dashboard
 
 ### High-Level Flow
 AI CCTV Cameras (Edge)
-        ↓
+↓
 Structured Events (JSON)
-        ↓
+↓
 FastAPI Backend
-        ↓
+↓
 SQLite Database
-        ↓
-Metrics Computation Layer
-        ↓
+↓
+Metrics Computation
+↓
 React Dashboard
 
 
