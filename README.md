@@ -2,7 +2,7 @@
 
 ## Overview
 
-Note: I took help from Chatgpt while doing this assignment
+Note: I took help from Chatgpt while doing this assignment.
 
 This project is a production-style full-stack web application that simulates how a manufacturing factory can use AI-powered CCTV systems to monitor worker activity and compute productivity metrics.
 
