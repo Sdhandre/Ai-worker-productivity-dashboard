@@ -39,7 +39,7 @@ export default function App() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>AI Worker Productivity Dashboard</h1>
+      <h1>AI Worker Productivity Dashboard(Please wait for 2-3 minuites, the backend might be loading)</h1>
 
       <FactorySummary data={factory} />
       <h2>Filter by Worker</h2>
