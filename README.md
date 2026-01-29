@@ -11,13 +11,13 @@ No computer vision or machine learning models are built in this project. The foc
 ## Live Demo & Repository
 
 **Live Web Application:**
-https://<ai-worker-productivity-dashboard.vercel.app>
+https://ai-worker-productivity-dashboard.vercel.app
 
 **Backend API (Swagger):**
-https://<ai-worker-productivity-dashboard-g2ji.onrender.com>/docs
+https://ai-worker-productivity-dashboard-g2ji.onrender.com/docs
 
 **GitHub Repository:**
-https://github.com/<Sdhandre>/Ai-worker-productivity-dashboard
+https://github.com/Sdhandre/Ai-worker-productivity-dashboard
 
 
 ## Edge → Backend → Dashboard Architecture
@@ -194,6 +194,6 @@ React Dashboard
 ### Run Locally
 
 ```bash
-git clone https://github.com/<Sdhandre>/Ai-worker-productivity-dashboard
+git clone https://github.com/Sdhandre/Ai-worker-productivity-dashboard
 cd ai-worker-productivity-dashboard
 docker compose up --build
