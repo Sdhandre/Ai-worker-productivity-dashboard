@@ -2,6 +2,8 @@
 
 ## Overview
 
+Note: I took help from Chatgpt while doing this assignment
+
 This project is a production-style full-stack web application that simulates how a manufacturing factory can use AI-powered CCTV systems to monitor worker activity and compute productivity metrics.
 
 The system ingests structured AI-generated events, stores them in a database, computes time-based and production-based metrics, and displays them in a clear dashboard for factory monitoring.
